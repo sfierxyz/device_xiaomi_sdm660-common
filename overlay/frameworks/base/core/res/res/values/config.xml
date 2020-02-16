@@ -298,4 +298,24 @@
     <string-array name="config_biometric_sensors" translatable="false" >
         <item>0:2:15</item> <!-- ID0:Fingerprint:Strong -->
     </string-array>
+    <!-- Controls the navigation bar interaction mode:
+         0: 3 button mode (back, home, overview buttons)
+         1: 2 button mode (back, home buttons + swipe up for overview)
+         2: gestures only for back, home and overview -->
+    <integer name="config_navBarInteractionMode">2</integer>
+
+    <!-- Corner radius for bottom sheet system dialogs -->
+    <dimen name="config_bottomDialogCornerRadius">16.0dip</dimen>
+
+    <!-- Corner radius of system buttons -->
+    <dimen name="config_buttonCornerRadius">4.0dip</dimen>
+
+    <!-- Corner radius of system dialogs -->
+    <dimen name="config_dialogCornerRadius">8.0dip</dimen>
+
+    <!-- The amount to scale fullscreen snapshots for Overview and snapshot starting windows. -->
+    <item format="float" type="dimen" name="config_fullTaskSnapshotScale">0.8</item>
+
+    <!-- Corner radius of system progress bars -->
+    <dimen name="config_progressBarCornerRadius">1000.0dip</dimen>
 </resources>
