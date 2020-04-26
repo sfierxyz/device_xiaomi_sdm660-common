@@ -33,5 +33,9 @@
 # Root files
 /persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
 
+# platina dt2w
+/proc/touchpanel/wake_gesture                   u:object_r:sysfs_tap_to_wake:s0
+/sys/devices/soc/c178000.i2c/i2c-4/4-0062/wake_gesture          u:object_r:sysfs_tap_to_wake:s0
+
 # Thermal
 /data/vendor/thermal(/.*)?                      u:object_r:thermal_data_file:s0
