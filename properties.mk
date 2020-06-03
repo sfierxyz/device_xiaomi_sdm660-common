@@ -215,3 +215,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # IORAP
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.iorapd.enable=true
+
+# Zygote preforking
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true
