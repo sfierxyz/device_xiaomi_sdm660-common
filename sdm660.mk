@@ -448,6 +448,10 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-service \
     thermal.sdm660
 
+# Vibrator
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.vibrator.service
+
 # VNDK
 PRODUCT_PACKAGES += \
     vndk-ext \
