@@ -15,7 +15,7 @@
 -->
 <config>
     <component-override package="com.android.bluetooth" >
-        <component class=".a2dpsink.A2dpSinkService" enabled="true" />
+        <component class=".a2dpsink.A2dpSinkService" enabled="false" />
         <component class=".avrcp.AvrcpTargetService" enabled="false" />
     </component-override>
 </config>
