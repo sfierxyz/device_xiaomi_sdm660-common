@@ -30,5 +30,9 @@
 
     <!-- Doze: does this device support STATE_DOZE and STATE_DOZE_SUSPEND?  -->
     <bool name="doze_display_state_supported">true</bool>
-
+	
+    <!-- The number of columns & rows in the QuickSettings -->
+    <integer name="quick_settings_num_columns">4</integer>
+    <integer name="quick_settings_max_rows">2</integer>
+ 
 </resources>
