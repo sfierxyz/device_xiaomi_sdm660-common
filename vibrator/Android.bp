@@ -19,5 +19,8 @@ cc_binary {
         "android.hardware.vibrator@1.1",
         "android.hardware.vibrator@1.2",
     ],
+    vintf_fragments: [
+        "vendor.qti.hardware.vibrator@1.2-service.xml",
+    ],
     vendor: true,
 }
