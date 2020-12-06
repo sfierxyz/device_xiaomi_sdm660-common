@@ -1,0 +1,4 @@
+allow init socket_device:sock_file { unlink setattr create };
+
+# Allow init to chown/chmod on pseudo files in /sys
+allow init sysfs_type:file { setattr };
