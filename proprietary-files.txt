@@ -251,12 +251,12 @@ vendor/lib64/libhdr_tm.so|1e74de5b505c8f742f1fb0379725ec9f5fd53282
 
 # Graphics (SDM) - from jasmine
 vendor/lib/libqseed3.so|f1c5c5e2db7cf1bf1cd6782af3476ec721c525e7
-vendor/lib/libsdm-color.so|2856bf71af603076b23d4c206dacba7c82350387
+vendor/lib/libsdm-color.so|05e6eedb8f9656d9097a1c3cee09ceeef1025181
 vendor/lib/libsdm-diag.so|b1813c5639553537ccda31b2e44b5d4a85eb2adc
 vendor/lib/libsdmextension.so|37d5fca198c8e8526d6a4cb95f9c4bdf719e0efd
 vendor/lib/libtinyxml2_1.so|f54f81359c78715315bc24678c34c129413e6c92
 vendor/lib64/libqseed3.so|24ae4dfe5d9fa27a858b64dfafd1c713da6e6fde
-vendor/lib64/libsdm-color.so|ed022cfcc1546c11b82991986e0a938464400858
+vendor/lib64/libsdm-color.so|9c80ac4e059bff1c53814e9f5f71a5fbe38bce40
 vendor/lib64/libsdm-diag.so|6eb99b83036f917070393fa067eaebc50a5ff307
 vendor/lib64/libsdm-disp-vndapis.so|ba4978c373f9892d884d07c4cf25dba9d73fda1f
 vendor/lib64/libsdmextension.so|264c00a0920d291700b2948b9337037684986921
@@ -334,12 +334,12 @@ vendor/bin/pm-service|b0f77edfe04a3cc6284738196c0044e676d5eeb3
 vendor/lib64/libperipheral_client.so|a0dd574c8af3135adae10ef49065fa765906db7a
 
 # Postprocessing - from jasmine
-vendor/bin/hw/vendor.display.color@1.0-service|b091c0d0f898959afedf8a3f83b5e97205fdfbc8
+vendor/bin/hw/vendor.display.color@1.0-service|e8c561e3a169c3007b117515f2946f23a195a5e5
 vendor/bin/mm-pp-dpps|87650deb0e6df4afae33020b23af0d1cf33ec51c
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
 vendor/lib64/libdisp-aba.so|fcb06e36e31d741c92d189ad95bc2f69bbf1e17b
-vendor/lib64/vendor.display.color@1.0.so|3939e4d1ab4f74e6bbd04524a9e6211ade9c5d0b
-vendor/lib64/vendor.display.color@1.1.so|ce0030a7e6593236277962ffff290b834eaf1f25
+vendor/lib64/vendor.display.color@1.0.so|c7eb0d87e45934ad7ff34d0c977116ed46091865
+vendor/lib64/vendor.display.color@1.1.so|d2dfc3fff6aaf7989110ebe05af154186e535010
 vendor/lib64/vendor.display.postproc@1.0.so|0b578a42706c770c6c61eccdee8a9e4c89c08b10
 
 # Power-off charging daemon
