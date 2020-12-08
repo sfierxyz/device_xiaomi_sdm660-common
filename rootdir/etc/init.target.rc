@@ -206,6 +206,7 @@ service thermal-engine /system/vendor/bin/thermal-engine
    socket thermal-recv-passive-client stream 0666 system system
    socket thermal-send-rule stream 0660 system system
    group root
+   disabled
 
 #service security-check1 /sbin/security_boot_check system
 #    class core
