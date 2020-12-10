@@ -1,3 +1,2 @@
 type fingerprint_device, dev_type;
 type spidev_device, dev_type;
-type blkio_dev, dev_type;

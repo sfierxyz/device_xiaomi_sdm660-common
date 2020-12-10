@@ -28,8 +28,7 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-aosip \
-    $(LOCAL_PATH)/overlay-evo
+    $(LOCAL_PATH)/overlay-aosip
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
@@ -460,14 +459,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-# DeviceDoze
-PRODUCT_PACKAGES += \
-    DeviceDoze
-
-# Device Settings
-PRODUCT_PACKAGES += \
-   DeviceSettings
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sdm660-common/sdm660-common-vendor.mk)

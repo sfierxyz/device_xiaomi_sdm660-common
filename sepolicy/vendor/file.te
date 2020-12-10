@@ -3,15 +3,3 @@ type public_adsprpcd_file, file_type;
 type sysfs_fingerprint, fs_type, sysfs_type;
 type sysfs_touchpanel, fs_type, sysfs_type;
 type thermal_data_file, file_type, data_file_type;
-
-# Touchscreen wake_gesture
-type proc_dt2w, fs_type, proc_type;
-type sysfs_tap_to_wake, sysfs_type, fs_type;
-
-# Kcal
-type kcal_dev, sysfs_type, fs_type;
-
-# XiamiParts
-type sysfs_fpsinfo, sysfs_type, fs_type;
-type sysfs_headphonegain, sysfs_type, fs_type;
-type sysfs_micgain, sysfs_type, fs_type;
