@@ -194,3 +194,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # WFD
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.debug.wfd.enable=1
+
+ifeq ($(ENABLE_APEX), true)
+PRODUCT_PRODUCT_PROPERTIES += \
+     ro.apex.updatable=true
+endif
