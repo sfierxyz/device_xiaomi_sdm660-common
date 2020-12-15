@@ -773,8 +773,10 @@ service wifi-crda /vendor/bin/init.crda.sh
    disabled
    oneshot
 
-on property:sys.boot_completed=1
+on property:sys.boot_completed=1 && property:vendor.post_boot.parsed=""
     start qcom-post-boot
+
+on property:sys.boot_completed=1
     start qti-testscripts
 
 on property:ro.vendor.ril.mbn_copy_completed=1
