@@ -2505,19 +2505,7 @@ case "$target" in
                 for cpubw in $device/*cpu-cpu-ddr-bw/devfreq/*cpu-cpu-ddr-bw
                 do
                     echo "bw_hwmon" > $cpubw/governor
-                    echo 50 > $cpubw/polling_interval
                     echo 762 > $cpubw/min_freq
-                    echo "1525 3143 5859 7759 9887 10327 11863 13763" > $cpubw/bw_hwmon/mbps_zones
-                    echo 4 > $cpubw/bw_hwmon/sample_ms
-                    echo 85 > $cpubw/bw_hwmon/io_percent
-                    echo 100 > $cpubw/bw_hwmon/decay_rate
-                    echo 50 > $cpubw/bw_hwmon/bw_step
-                    echo 20 > $cpubw/bw_hwmon/hist_memory
-                    echo 0 > $cpubw/bw_hwmon/hyst_length
-                    echo 80 > $cpubw/bw_hwmon/down_thres
-                    echo 0 > $cpubw/bw_hwmon/guard_band_mbps
-                    echo 250 > $cpubw/bw_hwmon/up_scale
-                    echo 1600 > $cpubw/bw_hwmon/idle_mbps
                 done
 
                 for memlat in $device/*cpu*-lat/devfreq/*cpu*-lat
