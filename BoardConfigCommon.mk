@@ -178,7 +178,11 @@ BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 BOARD_HAS_LARGE_FILESYSTEM := true
 
 # SELinux
+ifeq ($(PRODUCT_NAME),nad_lavender)
+include device/qcom/sepolicy-legacy-um-new/SEPolicy.mk
+else
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
+endif
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/public
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(COMMON_PATH)/sepolicy/private
