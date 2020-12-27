@@ -3,6 +3,6 @@
 
     <color name="disabled_text_color">#66000000</color>
 
-    <color name="meme_parts_icon_tint">@*android:color/accent_device_default_light</color>
+    <color name="meme_parts_icon_tint">#FF452600</color>
 
 </resources>
