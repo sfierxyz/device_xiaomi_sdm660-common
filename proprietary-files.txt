@@ -188,22 +188,22 @@ vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|188222f7cda270cad18757cf59710978f8657105
 vendor/lib64/libdpmqmihal.so|84dad3cd086791473878b353ef5aef6b6d495137
 
-# DRM - from jasmine
-vendor/bin/qseecomd|0c5e6d088e4d5600ce08915e7ef6ef28a99a2611
-vendor/lib/libQSEEComAPI.so|1c134972d1629e7ec8e854f0fa43e2886556dbd7
-vendor/lib/libsdedrm.so|b603b6beaa50d49604ab2ebe0977a9ef79252b20
-vendor/lib64/libdrmfs.so|d5847a27b74955a0ccfb2da499fa42902c5bf1df
-vendor/lib64/libdrmtime.so|9f1337004246fa7e6f726486bcab949fe5e2459f
-vendor/lib64/libGPreqcancel.so|76b35e76a85b333f46ab749b7865c26ba0ca7bc4
-vendor/lib64/libGPreqcancel_svc.so|610f0d55e3c3b31a5fdd590dcd6ec8c2cf258d9b
-vendor/lib64/libqisl.so|f81d523e3e257e99bd055f6576521519a074e630
-vendor/lib64/libQSEEComAPI.so|1dfc70896af18264af46be4bf797680cdd6b018b
-vendor/lib64/librpmb.so|a6add4226a289242eb2e1ccef23a94d100a94064
-vendor/lib64/libsdedrm.so|2add69c575f5745d0db2bbe8dfb7f75f9dc03ce6
-vendor/lib64/libsecureui_svcsock.so|889d4a12c5dee56ed4b10548abbd7b9033cbdad2
-vendor/lib64/libSecureUILib.so|3a059d1fe3395eaefeb7817ad3af46987b6f4794
-vendor/lib64/libssd.so|a64337d8044607b81adcf7e8c5760cf8cdcf82b4
-vendor/lib64/libStDrvInt.so|a7bd8140e2cd5aa70a7d929e01233e5b71844cd8
+# DRM - from LA.UM.8.2.1.r1-05600-sdm660
+vendor/bin/qseecomd|46e7940548aa3fe4f579c59858f2da4dba97707c
+vendor/lib/libQSEEComAPI.so|48b45554655c961c2614fbd41daa692be4fd53fb
+vendor/lib/libsdedrm.so|0ac8ad285d137830d1971199ea86230855863321
+vendor/lib64/libdrmfs.so|958d8cb360b70ccdea24621ced82bd7bc30c697b
+vendor/lib64/libdrmtime.so|a7f1076fad0535f11a83d8fa03e7796150c3a4b5
+vendor/lib64/libGPreqcancel.so|e402b6dd242031af4e67d9d46f1ec72ff0ed35d3
+vendor/lib64/libGPreqcancel_svc.so|817295e1f7de69635dee44ad30382edc0ba9455a
+vendor/lib64/libqisl.so|c4e7f283f3d416b784f2ec0f7000d607e044809b
+vendor/lib64/libQSEEComAPI.so|0a860cf2d01df964c91256984ca4e425dc783f2f
+vendor/lib64/librpmb.so|c34f39fc6b548d0da94c2198de3e4963fc241852
+vendor/lib64/libsdedrm.so|7f110a14cfe6440466f80020983cad335a844d12
+vendor/lib64/libsecureui_svcsock.so|9cb1b317f10d53819158ff8b05b25929a7759857
+vendor/lib64/libSecureUILib.so|680788dde32476a5f118fcb76135426df6f377c2
+vendor/lib64/libssd.so|bf3b64cc51cbbe2d70373d94025725c49ce1d46b
+vendor/lib64/libStDrvInt.so|8de13b46e8f21016c0fffaec34b0a2bacfccec04
 
 # GPS - from jasmine
 vendor/bin/loc_launcher|d0d1465a7f8eb24c50b3c616dccaf68b3dc7888a
