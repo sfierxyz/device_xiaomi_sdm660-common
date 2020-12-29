@@ -402,12 +402,8 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(COMMON_PATH)/overlay \
-    $(COMMON_PATH)/overlay-awaken \
+    $(COMMON_PATH)/overlay-fluid \
     $(COMMON_PATH)/overlay-lineage
-
-# RRO configuration
-TARGET_USES_RRO := true
-PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Powerhint
 ifeq ($(EAS_POWERHINT_VARIANT), sdm636)
