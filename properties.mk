@@ -135,6 +135,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # FRP
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
+	
+# Graphics
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.hardware.egl=adreno \
+    ro.hardware.vulkan=adreno
 
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
