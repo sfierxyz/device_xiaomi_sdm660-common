@@ -299,4 +299,10 @@
 
     <!-- If this is true, device supports Sustained Performance Mode. -->
     <bool name="config_sustainedPerformanceModeSupported">true</bool>
+
+    <!-- Default system navigation
+	    0: 3 btn
+	    1: 2 btn
+	    2: gestures -->
+    <integer name="config_navBarInteractionMode">2</integer>
 </resources>
