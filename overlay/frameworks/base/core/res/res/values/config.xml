@@ -311,4 +311,10 @@
     <string name="db_default_journal_mode">MEMORY</string>
     <string name="db_default_sync_mode">OFF</string>
     <string name="db_wal_sync_mode">OFF</string>
+
+    <!-- Default system navigation
+	    0: 3 btn
+	    1: 2 btn
+	    2: gestures -->
+    <integer name="config_navBarInteractionMode">2</integer>
 </resources>
