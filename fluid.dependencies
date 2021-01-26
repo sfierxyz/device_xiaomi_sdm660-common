@@ -8,5 +8,11 @@
     "remote":      "fluid-devices",
     "repository":  "vendor_xiaomi_sdm660-common",
     "target_path": "vendor/xiaomi/sdm660-common"
+  },
+  {
+    "remote":      "github",
+    "repository":  "crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-7095922",
+    "target_path": "prebuilts/clang/host/linux-x86/clang-r407598b",
+    "branch": "11.0"
   }
 ]
