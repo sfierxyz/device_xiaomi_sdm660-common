@@ -42,7 +42,8 @@ PRODUCT_VENDOR_KERNEL_HEADERS := device/xiaomi/lavender-kernel/sdm660/kernel-hea
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
-    hardware/google/pixel
+    hardware/google/pixel \
+    vendor/qcom/opensource/data-ipa-cfg-mgr
 
 # Permissions
 PRODUCT_COPY_FILES += \
