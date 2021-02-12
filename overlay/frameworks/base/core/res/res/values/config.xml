@@ -317,4 +317,8 @@
 	    1: 2 btn
 	    2: gestures -->
     <integer name="config_navBarInteractionMode">2</integer>
+
+    <!-- Controls whether system buttons use all caps for text -->
+    <bool name="config_buttonTextAllCaps">false</bool>
+
 </resources>
