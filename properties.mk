@@ -32,6 +32,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.hifi.int_codec=true \
     ro.af.client_heap_size_kbyte=7168 \
     vendor.audio.volume.headset.gain.depcal=true \
+    persist.vendor.service.bdroid.sibs=false \
     vendor.audio.spkr_prot.tx.sampling_rate=48000
 
 PRODUCT_PROPERTY_OVERRIDES += \
