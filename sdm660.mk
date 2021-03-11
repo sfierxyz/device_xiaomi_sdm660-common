@@ -431,5 +431,9 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     XiaomiDoze
 
+# iorap
+PRODUCT_PACKAGES += \
+    iorap-app-startup-runner
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sdm660-common/sdm660-common-vendor.mk)
