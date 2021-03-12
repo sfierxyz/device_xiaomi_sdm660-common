@@ -208,7 +208,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # WFD
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.debug.wfd.enable=0
-
-# IORAP
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.iorapd.enable=true
