@@ -98,6 +98,10 @@ endif
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := default
 LOC_HIDL_VERSION := 3.0
 
+# HALs
+USE_DEVICE_SPECIFIC_DISPLAY := true
+DEVICE_SPECIFIC_DISPLAY_PATH := hardware/qcom-caf/msm8998-r/display
+
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(COMMON_PATH)/configs/manifests/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/configs/manifests/manifest.xml
