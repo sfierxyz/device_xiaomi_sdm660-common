@@ -187,7 +187,8 @@ PRODUCT_PACKAGES += \
     libdisplayconfig.qti.vendor \
     libtinyxml \
     libqdMetaData \
-    libqdMetaData.system \
+    libqdMetaData.vendor \
+    libqservice \
     libstagefright_enc_common
 
 PRODUCT_PACKAGES += \
@@ -435,7 +436,8 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libaacwrapper \
-    libnl
+    libnl \
+    libstagefright_enc_common
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
