@@ -204,4 +204,6 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # IORAP
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.iorapd.enable=true
+    ro.iorapd.enable=true \
+    iorapd.perfetto.enable=true \
+    iorapd.readahead.enable=true
