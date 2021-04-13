@@ -32,9 +32,4 @@ It allows additional grants on top of privapp-permissions-platform.xml
         <permission name="android.permission.READ_FRAME_BUFFER"/>
         <permission name="android.permission.WRITE_MEDIA_STORAGE"/>
     </privapp-permissions>
-   
-    <privapp-permissions package="com.android.hotwordenrollment.common.util">
-￼      <permission name="android.permission.CAPTURE_AUDIO_HOTWORD"/>
-￼      <permission name="android.permission.MANAGE_SOUND_TRIGGER"/>
-￼    </privapp-permissions>
 </permissions>
