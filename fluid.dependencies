@@ -10,5 +10,11 @@
     "repository"  : "vendor_xiaomi_sdm660-common",
     "target_path" : "vendor/xiaomi/sdm660-common",
     "branch"      : "fluid-11"
+  },
+  {
+   "repository"  : "kdrag0n/proton-clang",
+   "target_path" : "prebuilts/clang/host/linux-x86/clang-proton",
+   "remote"      : "github",
+   "branch"      : "master"
   }
 ]

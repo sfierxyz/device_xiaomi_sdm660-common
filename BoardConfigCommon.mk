@@ -55,7 +55,9 @@ BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 KERNEL_LD := LD=ld.lld
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_CLANG_VERSION := r407598b
+TARGET_KERNEL_CLANG_VERSION := proton
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-gnu-
+KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton/bin
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
