@@ -434,10 +434,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
-# XiaomiDoze
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # iorap
 PRODUCT_PACKAGES += \
     iorap-app-startup-runner
