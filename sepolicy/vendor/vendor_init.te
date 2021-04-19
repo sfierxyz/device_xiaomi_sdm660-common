@@ -9,6 +9,5 @@ allow init adsprpcd_file:file mounton;
 
 allow vendor_init apex_metadata_file:dir create_dir_perms;
 
-set_prop(vendor_init, freq_prop)
 set_prop(vendor_init, camera_prop)
 set_prop(vendor_init, vendor_power_prop)
