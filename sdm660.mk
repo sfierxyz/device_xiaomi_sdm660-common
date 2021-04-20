@@ -37,7 +37,8 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
     hardware/google/pixel \
-    vendor/qcom/opensource/data-ipa-cfg-mgr
+    vendor/qcom/opensource/data-ipa-cfg-mgr \
+    packages/apps/Bluetooth
 
 # Permissions
 PRODUCT_COPY_FILES += \
