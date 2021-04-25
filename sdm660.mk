@@ -212,10 +212,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libshim_dpmframework
 
-# KCal Control
-PRODUCT_PACKAGES += \
-    KCalControl
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl:64 \
