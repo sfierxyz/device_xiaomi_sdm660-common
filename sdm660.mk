@@ -191,8 +191,8 @@ PRODUCT_PACKAGES += \
     libstagefright_enc_common
 
 # Display Hal
-USE_DEVICE_SPECIFIC_DISPLAY := true
-DEVICE_SPECIFIC_DISPLAY_PATH := hardware/qcom-caf/msm8998/display-r
+#USE_DEVICE_SPECIFIC_DISPLAY := true
+#DEVICE_SPECIFIC_DISPLAY_PATH := hardware/qcom-caf/msm8998/display-r
 
 PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0_32 \
