@@ -525,10 +525,15 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|a0d692fe10ef9dc447949
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|e47baed52f1c0637de34fa55e45a86b4b412a672
 
-# Widevine - from jasmine
+# DRM (Widevine) - from jasmine-user-10-QKQ1.190910.002-V11.0.19.0.QDIMIXM
+-vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.2-service.widevine.xml|dc8a52744f09f7175903260ec8f7ea2364237509
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|1aed116c6cd73ee0c89a5eec050afab5c64b9f87
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292e89fc0c4ccd1932224215
+vendor/lib/mediadrm/libwvdrmengine.so|a8bdbbfb3aa222095f1cb7658ec5c46fa41dd560
+vendor/lib64/libcpion.so|ff24ef248bb35fd3cc1081a63f33c2565dc6351f
+vendor/lib64/libhdcpsrm.so|ee8e7c29e2b716a8bb07c3cbb730e34d8af3c64e
 vendor/lib64/libwvhidl.so|38677623330ec145a62afdef110c713c9492671c
+vendor/lib64/mediadrm/libwvdrmengine.so|80280a2292db04a1eb3750df6897dea96f0f62f5
 
 # WiFi Display - from phoenix_sprout 11 RKQ1.201123.002
 bin/wfdservice|cb053924304edda5bf4f9e3ddbbb7983e30513e9
