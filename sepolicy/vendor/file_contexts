@@ -34,6 +34,9 @@
 # Power
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power-service\.xiaomi_sdm660-libperfmgr               u:object_r:hal_power_default_exec:s0
 
+# Pixel Powerstats
+/vendor/bin/hw/android\.hardware\.power\.stats@1\.0-service\.xiaomi                                    u:object_r:hal_power_stats_default_exec:s0
+
 # Root files
 /persist(/.*)?                                  u:object_r:mnt_vendor_file:s0
 
