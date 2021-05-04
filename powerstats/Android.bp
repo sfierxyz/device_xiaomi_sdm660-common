@@ -27,7 +27,7 @@ cc_binary {
         "-Werror",
     ],
     static_libs: [
-        "libpixelpowerstats",
+        "libxiaomipowerstats",
     ],
     shared_libs: [
         "libbase",
@@ -37,7 +37,7 @@ cc_binary {
         "liblog",
         "libutils",
         "android.hardware.power.stats@1.0",
-        "pixelpowerstats_provider_aidl_interface-cpp",
+        "xiaomipowerstats_provider_aidl_interface-cpp",
         "libbinder",
     ],
     vendor: true,

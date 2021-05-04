@@ -15,7 +15,7 @@
  */
 
 aidl_interface {
-    name: "pixelpowerstats_provider_aidl_interface",
+    name: "xiaomipowerstats_provider_aidl_interface",
     unstable: true,
     srcs: [
         "android/vendor/powerstats/IPixelPowerStatsProvider.aidl",

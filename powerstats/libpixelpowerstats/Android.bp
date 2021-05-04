@@ -1,5 +1,5 @@
 cc_library_static {
-    name: "libpixelpowerstats",
+    name: "libxiaomipowerstats",
     vendor_available: true,
     export_include_dirs: ["include"],
 
@@ -19,7 +19,7 @@ cc_library_static {
     shared_libs: [
         "android.hardware.power@1.1",
         "android.hardware.power.stats@1.0",
-        "pixelpowerstats_provider_aidl_interface-cpp",
+        "xiaomipowerstats_provider_aidl_interface-cpp",
         "liblog",
         "libbinder",
     ],

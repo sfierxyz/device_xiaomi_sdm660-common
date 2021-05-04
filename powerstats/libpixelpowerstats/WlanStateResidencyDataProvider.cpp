@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-#define LOG_TAG "libpixelpowerstats"
+#define LOG_TAG "libxiaomipowerstats"
 
 #include <android-base/logging.h>
 #include <android-base/properties.h>
