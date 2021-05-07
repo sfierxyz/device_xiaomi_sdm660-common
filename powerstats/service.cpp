@@ -76,7 +76,7 @@ int main(int /* argc */, char** /* argv */) {
          .lastEntryTransform = rpmConvertToMs}};
 
     sp<GenericStateResidencyDataProvider> rpmSdp =
-            new GenericStateResidencyDataProvider("/sys/power/rpmh_stats/master_stats");
+            new GenericStateResidencyDataProvider("/d/system_stats");
 
     uint32_t apssId = service->addPowerEntity("APSS", PowerEntityType::SUBSYSTEM);
     rpmSdp->addEntity(apssId, PowerEntityConfig("APSS", rpmStateResidencyConfigs));
@@ -122,7 +122,7 @@ int main(int /* argc */, char** /* argv */) {
     };
 
     sp<GenericStateResidencyDataProvider> socSdp =
-            new GenericStateResidencyDataProvider("/sys/power/system_sleep/stats");
+            new GenericStateResidencyDataProvider("/d/system_stats");
 
     uint32_t socId = service->addPowerEntity("SoC", PowerEntityType::POWER_DOMAIN);
     socSdp->addEntity(socId,
@@ -133,7 +133,7 @@ int main(int /* argc */, char** /* argv */) {
     // Add WLAN power entity
     uint32_t wlanId = service->addPowerEntity("WLAN", PowerEntityType::SUBSYSTEM);
     sp<WlanStateResidencyDataProvider> wlanSdp =
-            new WlanStateResidencyDataProvider(wlanId, "/sys/kernel/wlan/power_stats");
+            new WlanStateResidencyDataProvider(wlanId, "/d/wlan0/power_stats");
     service->addStateResidencyDataProvider(wlanSdp);
 
     // Add GPU power entity
