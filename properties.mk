@@ -131,6 +131,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.disable_backpressure=0 \
     debug.cpurend.vsync=true
 
+# DRM Service
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true \
+    media.mediadrmservice.enable=true
+
 # FRP
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/bootdevice/by-name/frp
