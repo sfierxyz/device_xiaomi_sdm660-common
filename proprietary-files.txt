@@ -56,12 +56,12 @@ vendor/lib64/com.qualcomm.qti.ant@1.0.so|181a8ab9b1d40705d3151821b53732c5566a284
 vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|aa08f9ec51392ed841f60ad08b7f083312c8c5ee
 
 # Audio - from jasmine
-vendor/lib/libacdb-fts.so|7e542fe676bdeaf0347dada88683a67cb861d96d
-vendor/lib/libacdbloader.so|ce2494e403e79552793d65f344ce9f79b52ba51a
-vendor/lib/libacdbrtac.so|bacaa968f7da0ed014e6594b928823f0d08a06e6
-vendor/lib/libadiertac.so|ebdd9b6c4e64b38ef39401b1a1e03696583440dc
+vendor/lib/libacdb-fts.so|dbd000bc60d54491a99103dbb58b78b0f1d5f1d6
+vendor/lib/libacdbloader.so|93d3c6b208bb84ce1ef3dee1bd75389e4ad26177
+vendor/lib/libacdbrtac.so|411722d6c1b8df7d23d9a5eb19700fb43db396d2
+vendor/lib/libadiertac.so|a5173823fe0722063c02790d1950d49b8fa9079d
 vendor/lib/libadm.so|d7c7d22c4fe53312e1e49fbffd587b25fdf0ac89
-vendor/lib/libaudcal.so|f935b8c33972b8cee40f760478f1b64a54705683
+vendor/lib/libaudcal.so|21a74a71650726f606f1afc8f81eb4935f767ad0
 vendor/lib/libqtigef.so|e0c548247e923f1e972e7765a678566dd874afb7
 vendor/lib/soundfx/libasphere.so|b1b26f99d9fbfe75f109349de5505ca39ccd4c8c
 vendor/lib/soundfx/libqcbassboost.so|73339450a42b598a3c13e67b3d4a2266d986fea2
@@ -150,7 +150,7 @@ product/framework/dpmapi.jar:system_ext/framework/dpmapi.jar|4696df9793ad676b305
 product/lib64/com.qualcomm.qti.dpm.api@1.0.so:system_ext/lib64/com.qualcomm.qti.dpm.api@1.0.so|a763bb1bbeecb84723bff6f547a3b23fab68dee3
 product/lib64/libdpmctmgr.so:system_ext/lib64/libdpmctmgr.so|3d4b87a4937caf3a8d276f48a4f0dc2cad246c5b
 product/lib64/libdpmfdmgr.so:system_ext/lib64/libdpmfdmgr.so|e809155312a05d83b323ab0be64cb393d936e52a
-product/lib64/libdpmframework.so:system_ext/lib64/libdpmframework.so|8fd037eb8740a468a67c78e7fa01c69b1ba3fd2a|dad2493b5d4f42078713066130b0703af449c82f
+product/lib64/libdpmframework.so:system_ext/lib64/libdpmframework.so|dad2493b5d4f42078713066130b0703af449c82f
 product/lib64/libdpmtcm.so:system_ext/lib64/libdpmtcm.so|71a3d624602807f6fa6cbdb3a489efe9e93de634
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk:system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|9fd873c5330c03c62dfdeb6540b5984588295319
 vendor/bin/dpmQmiMgr|d536096b310a2d3f30a683c1bdcad8658db1ba52
@@ -284,8 +284,8 @@ vendor/lib/libgcs.so|91e2a7e52bbc076eb3761586bcaf623160612a79
 vendor/lib/libsmwrapper.so|d28c31e4dd25de2eb7d1face701b0f6acf1b1d0e
 
 # Media - from jasmine
-lib/libFileMux.so|79661e6dffc90234ad446641264fd0fa1a3fe6ab
-lib/libOmxMux.so|1ad1aa835a3dfb8bfea2a29291f82a173ba6a868
+lib/libFileMux.so|2199e612dd58b6b7e5a01c23c3e1c3bd09bfde91
+lib/libOmxMux.so|2ed79d5beff56d17f5aba978d78b6447ab5dcf67
 vendor/lib/libAlacSwDec.so|bca4278cb74a63772a0fc369480b5d9814063d9b
 vendor/lib/libApeSwDec.so|d175422c4b2e691dd5f2a3fe0c7dbc978084e838
 vendor/lib/libdsd2pcm.so|df3b8b4f7c209f061fd6c48bf833cb2ad3342791
@@ -528,10 +528,10 @@ vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|dee5b7838ac561a2292
 vendor/lib64/libwvhidl.so|38677623330ec145a62afdef110c713c9492671c
 
 # WiFi Display - from phoenix_sprout 11 RKQ1.201123.002
-system_ext/lib/libmmosal.so
-system_ext/lib/libmmparser_lite.so
-system_ext/lib64/libmmosal.so
-system_ext/lib64/libmmparser_lite.so
+system_ext/lib/libmmosal.so|79c2c9c9c9916a9cc445b8238c0f7ce9bf9e6c00
+system_ext/lib/libmmparser_lite.so|6546b02d33157bec3ce80a1355f85c241894b29e
+system_ext/lib64/libmmosal.so|24aa480c4f96b5db5c46bf1fa0d1d90a607f0120
+system_ext/lib64/libmmparser_lite.so|227ebbd6577f33c2c50f2334e0b4081fb5ddb094
 bin/wfdservice|cb053924304edda5bf4f9e3ddbbb7983e30513e9
 etc/init/wfdservice.rc|311bfdd1675e56499662f39455536b75b78477bb
 etc/wfdconfig.xml|d07f6b0441c0aa8913865100239490fa8687a020
@@ -547,7 +547,7 @@ lib/libwfdcommonutils.so|d59e192f0a699bb9aa3fd7e22618d626ca4b14f6
 lib/libwfdconfigutils.so|f77389f1ea63bf728ebe9ac23126ecf2bd2c34ed
 lib/libwfddisplayconfig.so|4497aff1d7c8971ee26abab9ad01a7088465ae79
 lib/libwfdmminterface.so|43c186cd9a8bd2d6a246edd82c22fb88795b7ff1
-lib/libwfdmmsink.so|5a5b144423b2a16d1b40e23a9287514202174394
+lib/libwfdmmsink.so|e49ee6361e888ed9d43c5d1c3d07982f6931c7f6
 lib/libwfdmmsrc.so|0d1ea5c02945237abb49b2105e731556dfd9a0e2
 lib/libwfdnative.so|e03f6083f1dcab0ec4d1e03319482ba65005a7f9
 lib/libwfdrtsp.so|1983c75c5eef7a5714ed6250a91c53ce4bf243f6
@@ -558,10 +558,10 @@ lib/libwfduibcsink.so|691d6f4beffb96aac702d7b70fd01318ff924fd6
 lib/libwfduibcsinkinterface.so|ae8f8ffaff6e0f3fb448a5eae07da72593c4c6c4
 lib/libwfduibcsrc.so|38f3102be34a1f5632bda7952849031a5f910574
 lib/libwfduibcsrcinterface.so|bd2f7d03e7c7ffd5f42305bc5b87a3007fe2671e
-lib/libwfdaudioclient.so
-lib/libwfdmediautils.so
-lib64/libFileMux.so
-lib64/libOmxMux.so
+lib/libwfdaudioclient.so|0e67061ac7d7a74261fdd9ec95780ab567b8388a
+lib/libwfdmediautils.so|cffb78a2a83dde15593734f0aeb96a9d997c9bd5
+lib64/libFileMux.so|9013ca47299ce9ca575fe3924044a576e59c954a
+lib64/libOmxMux.so|da82ca706b10f5c97c9cab33afbc93abbca7d3d0
 lib64/libwfdclient.so|8612f7068f76c8a51faeae963b95e2e9743c4a46
 lib64/libwfdnative.so|61c1297f7ac949cea396b8b0971a1083307f7bb1
 -priv-app/WfdService/WfdService.apk|a605ec4ceb3e57867759ee4d121c32afbb0195b8
@@ -575,6 +575,6 @@ vendor/lib/libwfdhaldsmanager.so|f821e664604b683ac9b6afc545e7f004e45d160c
 vendor/lib/libwfdhdcpcp.so|74407e38fb6584688201285589f2e396bcb58a3f
 vendor/lib/libwfdmmservice.so|8dbc75863971df4eadf99114354cfc0a7987758c
 vendor/lib/libwfdmodulehdcpsession.so|bed1f85a71330dd04a9ce5aba4ed40b15fc0f3f2
-vendor/lib/libmmosal.so
-vendor/lib64/libmmosal.so
+vendor/lib/libmmosal.so|31c52e7ebc9de86bd15bc1165185bdfd79fb318e
+vendor/lib64/libmmosal.so|b4de8a81ac6e600bfa2e15f9bee20c6ac30e2d89
 vendor/lib64/libwfdhdcpcp.so|a9f56d29d9243272ca73d564977022d3aef3b8e4
